@@ -1,63 +1,67 @@
-.containerDefault_c69b6d,
-.containerDragBefore_c69b6d {
+.c69b6db0641110f6-containerDefault,
+.c69b6db0641110f6-containerDragBefore {
     margin: 2px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-    .link__2ea32 {
+    ._2ea32c412048f708-link {
         background: transparent !important;
     }
-    &.wrapper__2ea32 {
+    &._2ea32c412048f708-wrapper {
         padding-left: 8px;
     }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(.modeSelected__2ea32) {
+    &:has(._2ea32c412048f708-modeSelected) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        .link__2ea32 svg {
+        ._2ea32c412048f708-link svg {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32) {
+    &:has(._2ea32c412048f708-modeUnreadImportant) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        .link__2ea32 svg {
+        ._2ea32c412048f708-link svg {
             color: var(--indicator-unread-border) ;
         }
     }
-    &:has(.mentionsBadge__933a1) {
+    &:has(._933a166a2ed4d49c-mentionsBadge) {
         border-left-color: var(--indicator-unread-mention-border);
         background-color: var(--indicator-unread-mention-background);
         &:hover {
             background-color: var(--indicator-unread-mention-hover-background);
         }
-        .link__2ea32 svg {
+        ._2ea32c412048f708-link svg {
             color: var(--indicator-unread-mention-border) ;
         }
     }
-    &:has(.modeConnected__2ea32) {
+    &:has(._2ea32c412048f708-modeConnected) {
         border-left-color: var(--indicator-connected-border);
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover-background);
         }
-        .link__2ea32 svg {
+        ._2ea32c412048f708-link svg {
             color: var(--indicator-connected-border) ;
         }
     }
 
-    .unread__2ea32 {
+    ._2ea32c412048f708-unread {
         display: none;
     }
 }
 
-.container__5b40b .spineBorder__5b40b {
+._5b40bdd67543ba35-container ._5b40bdd67543ba35-spineBorder {
     left: 24px;
+}
+
+.c69b6db0641110f6-voiceChannelHighlightBorder, .c69b6db0641110f6-voiceChannelHighlightGlow {
+  display: none;
 }
