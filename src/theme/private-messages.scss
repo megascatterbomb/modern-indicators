@@ -1,4 +1,4 @@
-._972a0d22c8afa7f0-channel {
+.channel__972a0 {
     max-width: unset;
     margin: 2px 0;
     padding: 0 0 0 8px;
@@ -7,27 +7,27 @@
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(.bf202d63ad53e289-selected) {
+    &:has(.selected_bf202d) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        ._972a0d22c8afa7f0-linkButtonIcon, ._972a0d22c8afa7f0-closeButton {
+        .linkButtonIcon__972a0, .closeButton__972a0 {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(._20a53846fe2e8513-highlighted) {
+    &:has(.highlighted__20a53) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        ._972a0d22c8afa7f0-linkButtonIcon, ._972a0d22c8afa7f0-closeButton {
+        .linkButtonIcon__972a0, .closeButton__972a0 {
             color: var(--indicator-unread-border);
         }
     }
-    .bf202d63ad53e289-interactive {
+    .interactive_bf202d {
         background: transparent;
     }
 }
