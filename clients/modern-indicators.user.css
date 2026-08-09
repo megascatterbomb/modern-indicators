@@ -48,7 +48,6 @@
 	
 	.containerDefault_c69b6d,
 	.containerDragBefore_c69b6d {
-	  margin: 2px 0;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
@@ -130,7 +129,6 @@
 	}
 	
 	.navItem__551b0 {
-	  margin: 2px 0;
 	  padding-left: 8px;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
@@ -149,7 +147,6 @@
 	
 	.channel__972a0 {
 	  max-width: unset;
-	  margin: 2px 0;
 	  padding: 0 0 0 8px;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
